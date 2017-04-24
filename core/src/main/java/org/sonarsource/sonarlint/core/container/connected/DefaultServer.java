@@ -44,7 +44,7 @@ public class DefaultServer extends Server {
 
   @Override
   public String getVersion() {
-    return settings.getString(CoreProperties.SERVER_VERSION);
+    return settings.getString("sonar.core.version");
   }
 
   @Override

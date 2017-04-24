@@ -32,7 +32,7 @@ public class DefaultServerTest {
   public void shouldLoadServerProperties() {
     Settings settings = new MapSettings();
     settings.setProperty(CoreProperties.SERVER_ID, "123");
-    settings.setProperty(CoreProperties.SERVER_VERSION, "2.2");
+    settings.setProperty("sonar.core.version", "2.2");
     settings.setProperty(CoreProperties.SERVER_STARTTIME, "2010-05-18T17:59:00+0000");
     settings.setProperty(CoreProperties.PERMANENT_SERVER_ID, "abcde");
 
